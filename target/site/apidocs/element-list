@@ -1,0 +1,8 @@
+br.com.kantar.application
+br.com.kantar.controllers
+br.com.kantar.exception
+br.com.kantar.exceptions.handlers
+br.com.kantar.modelMessage
+br.com.kantar.models
+br.com.kantar.repository
+br.com.kantar.services

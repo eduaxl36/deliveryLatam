@@ -1,0 +1,237 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/eduardo/.m2/repository/org/springframework/boot/spring-boot-starter-validation/2.6.3/spring-boot-starter-validation-2.6.3.jar;C:/Users/eduardo/.m2/repository/org/springframework/boot/spring-boot-starter/2.6.3/spring-boot-starter-2.6.3.jar;C:/Users/eduardo/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.6.3/spring-boot-starter-logging-2.6.3.jar;C:/Users/eduardo/.m2/repository/ch/qos/logback/logback-classic/1.2.10/logback-classic-1.2.10.jar;C:/Users/eduardo/.m2/repository/ch/qos/logback/logback-core/1.2.10/logback-core-1.2.10.jar;C:/Users/eduardo/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.1/log4j-to-slf4j-2.17.1.jar;C:/Users/eduardo/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar;C:/Users/eduardo/.m2/repository/org/slf4j/jul-to-slf4j/1.7.33/jul-to-slf4j-1.7.33.jar;C:/Users/eduardo/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar;C:/Users/eduardo/.m2/repository/org/yaml/snakeyaml/1.29/snakeyaml-1.29.jar;C:/Users/eduardo/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.56/tomcat-embed-el-9.0.56.jar;C:/Users/eduardo/.m2/repository/org/hibernate/validator/hibernate-validator/6.2.0.Final/hibernate-validator-6.2.0.Final.jar;C:/Users/eduardo/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar;C:/Users/eduardo/.m2/repository/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar;C:/Users/eduardo/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar;C:/Users/eduardo/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.6.3/spring-boot-starter-data-jpa-2.6.3.jar;C:/Users/eduardo/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.6.3/spring-boot-starter-aop-2.6.3.jar;C:/Users/eduardo/.m2/repository/org/springframework/spring-aop/5.3.15/spring-aop-5.3.15.jar;C:/Users/eduardo/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar;C:/Users/eduardo/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.6.3/spring-boot-starter-jdbc-2.6.3.jar;C:/Users/eduardo/.m2/repository/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar;C:/Users/eduardo/.m2/repository/org/springframework/spring-jdbc/5.3.15/spring-jdbc-5.3.15.jar;C:/Users/eduardo/.m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar;C:/Users/eduardo/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar;C:/Users/eduardo/.m2/repository/org/hibernate/hibernate-core/5.6.4.Final/hibernate-core-5.6.4.Final.jar;C:/Users/eduardo/.m2/repository/net/bytebuddy/byte-buddy/1.11.22/byte-buddy-1.11.22.jar;C:/Users/eduardo/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar;C:/Users/eduardo/.m2/repository/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.jar;C:/Users/eduardo/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.jar;C:/Users/eduardo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.5/jaxb-runtime-2.3.5.jar;C:/Users/eduardo/.m2/repository/org/glassfish/jaxb/txw2/2.3.5/txw2-2.3.5.jar;C:/Users/eduardo/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.jar;C:/Users/eduardo/.m2/repository/org/springframework/data/spring-data-jpa/2.6.1/spring-data-jpa-2.6.1.jar;C:/Users/eduardo/.m2/repository/org/springframework/data/spring-data-commons/2.6.1/spring-data-commons-2.6.1.jar;C:/Users/eduardo/.m2/repository/org/springframework/spring-orm/5.3.15/spring-orm-5.3.15.jar;C:/Users/eduardo/.m2/repository/org/springframework/spring-context/5.3.15/spring-context-5.3.15.jar;C:/Users/eduardo/.m2/repository/org/springframework/spring-tx/5.3.15/spring-tx-5.3.15.jar;C:/Users/eduardo/.m2/repository/org/springframework/spring-beans/5.3.15/spring-beans-5.3.15.jar;C:/Users/eduardo/.m2/repository/org/slf4j/slf4j-api/1.7.33/slf4j-api-1.7.33.jar;C:/Users/eduardo/.m2/repository/org/springframework/spring-aspects/5.3.15/spring-aspects-5.3.15.jar;C:/Users/eduardo/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.6.3/spring-boot-starter-web-2.6.3.jar;C:/Users/eduardo/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.6.3/spring-boot-starter-json-2.6.3.jar;C:/Users/eduardo/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.1/jackson-databind-2.13.1.jar;C:/Users/eduardo/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.1/jackson-annotations-2.13.1.jar;C:/Users/eduardo/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.1/jackson-core-2.13.1.jar;C:/Users/eduardo/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.1/jackson-datatype-jdk8-2.13.1.jar;C:/Users/eduardo/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.1/jackson-datatype-jsr310-2.13.1.jar;C:/Users/eduardo/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.1/jackson-module-parameter-names-2.13.1.jar;C:/Users/eduardo/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.6.3/spring-boot-starter-tomcat-2.6.3.jar;C:/Users/eduardo/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.56/tomcat-embed-core-9.0.56.jar;C:/Users/eduardo/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.56/tomcat-embed-websocket-9.0.56.jar;C:/Users/eduardo/.m2/repository/org/springframework/spring-web/5.3.15/spring-web-5.3.15.jar;C:/Users/eduardo/.m2/repository/org/springframework/spring-webmvc/5.3.15/spring-webmvc-5.3.15.jar;C:/Users/eduardo/.m2/repository/org/springframework/spring-expression/5.3.15/spring-expression-5.3.15.jar;C:/Users/eduardo/.m2/repository/org/springframework/boot/spring-boot/2.6.3/spring-boot-2.6.3.jar;C:/Users/eduardo/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.6.3/spring-boot-autoconfigure-2.6.3.jar;C:/Users/eduardo/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar;C:/Users/eduardo/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar;C:/Users/eduardo/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar;C:/Users/eduardo/.m2/repository/org/springframework/spring-core/5.3.15/spring-core-5.3.15.jar;C:/Users/eduardo/.m2/repository/org/springframework/spring-jcl/5.3.15/spring-jcl-5.3.15.jar;C:/Users/eduardo/.m2/repository/com/google/code/gson/gson/2.9.0/gson-2.9.0.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/jetty-maven-plugin/9.4.24.v20191120/jetty-maven-plugin-9.4.24.v20191120.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/maven-plugin-api/3.6.0/maven-plugin-api-3.6.0.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/maven-model/3.6.0/maven-model-3.6.0.jar;C:/Users/eduardo/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.3/org.eclipse.sisu.plexus-0.3.3.jar;C:/Users/eduardo/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar;C:/Users/eduardo/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar;C:/Users/eduardo/.m2/repository/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.jar;C:/Users/eduardo/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/maven-artifact/3.6.0/maven-artifact-3.6.0.jar;C:/Users/eduardo/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/maven-core/3.6.0/maven-core-3.6.0.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/maven-settings/3.6.0/maven-settings-3.6.0.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/maven-settings-builder/3.6.0/maven-settings-builder-3.6.0.jar;C:/Users/eduardo/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.25/plexus-interpolation-1.25.jar;C:/Users/eduardo/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar;C:/Users/eduardo/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/maven-builder-support/3.6.0/maven-builder-support-3.6.0.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/maven-repository-metadata/3.6.0/maven-repository-metadata-3.6.0.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/maven-model-builder/3.6.0/maven-model-builder-3.6.0.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/maven-resolver-provider/3.6.0/maven-resolver-provider-3.6.0.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/resolver/maven-resolver-impl/1.3.1/maven-resolver-impl-1.3.1.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/resolver/maven-resolver-api/1.3.1/maven-resolver-api-1.3.1.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/resolver/maven-resolver-spi/1.3.1/maven-resolver-spi-1.3.1.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/resolver/maven-resolver-util/1.3.1/maven-resolver-util-1.3.1.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar;C:/Users/eduardo/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar;C:/Users/eduardo/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.3/org.eclipse.sisu.inject-0.3.3.jar;C:/Users/eduardo/.m2/repository/com/google/inject/guice/4.2.1/guice-4.2.1-no_aop.jar;C:/Users/eduardo/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar;C:/Users/eduardo/.m2/repository/com/google/guava/guava/25.1-android/guava-25.1-android.jar;C:/Users/eduardo/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar;C:/Users/eduardo/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar;C:/Users/eduardo/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar;C:/Users/eduardo/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar;C:/Users/eduardo/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar;C:/Users/eduardo/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar;C:/Users/eduardo/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/plugin-tools/maven-plugin-tools-api/3.5.2/maven-plugin-tools-api-3.5.2.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar;C:/Users/eduardo/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar;C:/Users/eduardo/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar;C:/Users/eduardo/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar;C:/Users/eduardo/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar;C:/Users/eduardo/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/maven-plugin-descriptor/2.2.1/maven-plugin-descriptor-2.2.1.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/shared/maven-artifact-transfer/0.9.1/maven-artifact-transfer-0.9.1.jar;C:/Users/eduardo/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar;C:/Users/eduardo/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar;C:/Users/eduardo/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar;C:/Users/eduardo/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar;C:/Users/eduardo/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/jetty-util/9.4.44.v20210927/jetty-util-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/jetty-webapp/9.4.44.v20210927/jetty-webapp-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.44.v20210927/jetty-xml-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/jetty-quickstart/9.4.44.v20210927/jetty-quickstart-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/jetty-jaas/9.4.44.v20210927/jetty-jaas-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/jetty-security/9.4.44.v20210927/jetty-security-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/jetty-plus/9.4.44.v20210927/jetty-plus-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/jetty-jndi/9.4.44.v20210927/jetty-jndi-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/jetty-server/9.4.44.v20210927/jetty-server-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.44.v20210927/jetty-servlet-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/jetty-util-ajax/9.4.44.v20210927/jetty-util-ajax-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/jetty-client/9.4.44.v20210927/jetty-client-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/jetty-http/9.4.44.v20210927/jetty-http-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/jetty-io/9.4.44.v20210927/jetty-io-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/jetty-jmx/9.4.44.v20210927/jetty-jmx-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/jetty-annotations/9.4.44.v20210927/jetty-annotations-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar;C:/Users/eduardo/.m2/repository/org/ow2/asm/asm/9.2/asm-9.2.jar;C:/Users/eduardo/.m2/repository/org/ow2/asm/asm-commons/9.2/asm-commons-9.2.jar;C:/Users/eduardo/.m2/repository/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar;C:/Users/eduardo/.m2/repository/org/ow2/asm/asm-analysis/9.2/asm-analysis-9.2.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.4.44.v20210927/javax-websocket-server-impl-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/websocket/javax-websocket-client-impl/9.4.44.v20210927/javax-websocket-client-impl-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/javax/websocket/javax.websocket-client-api/1.0/javax.websocket-client-api-1.0.jar;C:/Users/eduardo/.m2/repository/javax/websocket/javax.websocket-api/1.1/javax.websocket-api-1.1.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/websocket/websocket-server/9.4.44.v20210927/websocket-server-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.44.v20210927/websocket-common-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.44.v20210927/websocket-api-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.44.v20210927/websocket-client-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/9.4.44.v20210927/websocket-servlet-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/apache-jsp/9.4.44.v20210927/apache-jsp-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/toolchain/jetty-schemas/3.1.2/jetty-schemas-3.1.2.jar;C:/Users/eduardo/.m2/repository/org/mortbay/jasper/apache-jsp/8.5.70/apache-jsp-8.5.70.jar;C:/Users/eduardo/.m2/repository/org/mortbay/jasper/apache-el/9.0.52/apache-el-9.0.52.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jdt/ecj/3.19.0/ecj-3.19.0.jar;C:/Users/eduardo/.m2/repository/org/eclipse/jetty/apache-jstl/9.4.44.v20210927/apache-jstl-9.4.44.v20210927.jar;C:/Users/eduardo/.m2/repository/org/apache/taglibs/taglibs-standard-spec/1.2.5/taglibs-standard-spec-1.2.5.jar;C:/Users/eduardo/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar;C:/Users/eduardo/.m2/repository/javax/transaction/javax.transaction-api/1.3/javax.transaction-api-1.3.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'API 1.0 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/eduardo/Desktop/Projetos/Indicadores/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'API 1.0 API'
+br.com.kantar.application
+br.com.kantar.controllers
+br.com.kantar.exception
+br.com.kantar.exceptions.handlers
+br.com.kantar.modelMessage
+br.com.kantar.models
+br.com.kantar.repository
+br.com.kantar.services
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/application/ApiApplication.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/controllers/PaisesController.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/controllers/ProdutosController.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/exception/ExistValueException.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/exception/NotFoundException.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/exceptions/handlers/ExistValueExceptionHandler.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/exceptions/handlers/FieldsValidationExceptionHandler.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/exceptions/handlers/NotFoundExceptionHandler.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/modelMessage/ModelExceptionToConstraintViolated.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/modelMessage/ModelMessage.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/models/IndicadoresDiarios.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/models/IndicadoresMensais.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/models/IndicadoresSemanais.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/models/Justificativas.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/models/Paises.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/models/Produtos.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/models/SlaDiario.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/models/SlaMensal.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/models/SlaSemanal.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/models/Usuarios.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/repository/PaisesRepository.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/repository/ProdutosRepository.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/services/PaisesServices.java'
+'C:/Users/eduardo/Desktop/Projetos/Indicadores/src/main/java/br/com/kantar/services/ProdutosServices.java'
+C:\Users\eduardo\.m2\repository\org\springframework\boot\spring-boot-starter-validation\2.6.3\spring-boot-starter-validation-2.6.3.jar = 1645652967844
+C:\Users\eduardo\.m2\repository\org\springframework\boot\spring-boot-starter\2.6.3\spring-boot-starter-2.6.3.jar = 1644974397142
+C:\Users\eduardo\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.6.3\spring-boot-starter-logging-2.6.3.jar = 1644974397182
+C:\Users\eduardo\.m2\repository\ch\qos\logback\logback-classic\1.2.10\logback-classic-1.2.10.jar = 1644974397474
+C:\Users\eduardo\.m2\repository\ch\qos\logback\logback-core\1.2.10\logback-core-1.2.10.jar = 1644974397719
+C:\Users\eduardo\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.17.1\log4j-to-slf4j-2.17.1.jar = 1644974397550
+C:\Users\eduardo\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar = 1644974397744
+C:\Users\eduardo\.m2\repository\org\slf4j\jul-to-slf4j\1.7.33\jul-to-slf4j-1.7.33.jar = 1644974397814
+C:\Users\eduardo\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar = 1633137123328
+C:\Users\eduardo\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar = 1644974397999
+C:\Users\eduardo\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.56\tomcat-embed-el-9.0.56.jar = 1644974400424
+C:\Users\eduardo\.m2\repository\org\hibernate\validator\hibernate-validator\6.2.0.Final\hibernate-validator-6.2.0.Final.jar = 1645652968929
+C:\Users\eduardo\.m2\repository\jakarta\validation\jakarta.validation-api\2.0.2\jakarta.validation-api-2.0.2.jar = 1645652968588
+C:\Users\eduardo\.m2\repository\org\jboss\logging\jboss-logging\3.4.3.Final\jboss-logging-3.4.3.Final.jar = 1644974394041
+C:\Users\eduardo\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar = 1628731068702
+C:\Users\eduardo\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.6.3\spring-boot-starter-data-jpa-2.6.3.jar = 1644974393279
+C:\Users\eduardo\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.6.3\spring-boot-starter-aop-2.6.3.jar = 1644974393281
+C:\Users\eduardo\.m2\repository\org\springframework\spring-aop\5.3.15\spring-aop-5.3.15.jar = 1644974398518
+C:\Users\eduardo\.m2\repository\org\aspectj\aspectjweaver\1.9.7\aspectjweaver-1.9.7.jar = 1644974394413
+C:\Users\eduardo\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.6.3\spring-boot-starter-jdbc-2.6.3.jar = 1644974391927
+C:\Users\eduardo\.m2\repository\com\zaxxer\HikariCP\4.0.3\HikariCP-4.0.3.jar = 1644974392202
+C:\Users\eduardo\.m2\repository\org\springframework\spring-jdbc\5.3.15\spring-jdbc-5.3.15.jar = 1644974392515
+C:\Users\eduardo\.m2\repository\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3.jar = 1644974393659
+C:\Users\eduardo\.m2\repository\jakarta\persistence\jakarta.persistence-api\2.2.3\jakarta.persistence-api-2.2.3.jar = 1644974393756
+C:\Users\eduardo\.m2\repository\org\hibernate\hibernate-core\5.6.4.Final\hibernate-core-5.6.4.Final.jar = 1644974397437
+C:\Users\eduardo\.m2\repository\net\bytebuddy\byte-buddy\1.11.22\byte-buddy-1.11.22.jar = 1644974397022
+C:\Users\eduardo\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar = 1628731481224
+C:\Users\eduardo\.m2\repository\org\jboss\jandex\2.4.2.Final\jandex-2.4.2.Final.jar = 1644974394691
+C:\Users\eduardo\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.2.Final\hibernate-commons-annotations-5.1.2.Final.jar = 1628731068694
+C:\Users\eduardo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.5\jaxb-runtime-2.3.5.jar = 1644974395680
+C:\Users\eduardo\.m2\repository\org\glassfish\jaxb\txw2\2.3.5\txw2-2.3.5.jar = 1644974395408
+C:\Users\eduardo\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.12\istack-commons-runtime-3.0.12.jar = 1644974395958
+C:\Users\eduardo\.m2\repository\org\springframework\data\spring-data-jpa\2.6.1\spring-data-jpa-2.6.1.jar = 1644974396308
+C:\Users\eduardo\.m2\repository\org\springframework\data\spring-data-commons\2.6.1\spring-data-commons-2.6.1.jar = 1644974395340
+C:\Users\eduardo\.m2\repository\org\springframework\spring-orm\5.3.15\spring-orm-5.3.15.jar = 1644974396786
+C:\Users\eduardo\.m2\repository\org\springframework\spring-context\5.3.15\spring-context-5.3.15.jar = 1644974393493
+C:\Users\eduardo\.m2\repository\org\springframework\spring-tx\5.3.15\spring-tx-5.3.15.jar = 1644974392946
+C:\Users\eduardo\.m2\repository\org\springframework\spring-beans\5.3.15\spring-beans-5.3.15.jar = 1644974393030
+C:\Users\eduardo\.m2\repository\org\slf4j\slf4j-api\1.7.33\slf4j-api-1.7.33.jar = 1644974392909
+C:\Users\eduardo\.m2\repository\org\springframework\spring-aspects\5.3.15\spring-aspects-5.3.15.jar = 1644974396711
+C:\Users\eduardo\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.6.3\spring-boot-starter-web-2.6.3.jar = 1644974398857
+C:\Users\eduardo\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.6.3\spring-boot-starter-json-2.6.3.jar = 1644974398937
+C:\Users\eduardo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.1\jackson-databind-2.13.1.jar = 1644974399702
+C:\Users\eduardo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.1\jackson-annotations-2.13.1.jar = 1644974399199
+C:\Users\eduardo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.1\jackson-core-2.13.1.jar = 1644974399419
+C:\Users\eduardo\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.13.1\jackson-datatype-jdk8-2.13.1.jar = 1644974399327
+C:\Users\eduardo\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.1\jackson-datatype-jsr310-2.13.1.jar = 1644974399684
+C:\Users\eduardo\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.13.1\jackson-module-parameter-names-2.13.1.jar = 1644974399702
+C:\Users\eduardo\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.6.3\spring-boot-starter-tomcat-2.6.3.jar = 1644974399722
+C:\Users\eduardo\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.56\tomcat-embed-core-9.0.56.jar = 1644974401928
+C:\Users\eduardo\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.56\tomcat-embed-websocket-9.0.56.jar = 1644974401192
+C:\Users\eduardo\.m2\repository\org\springframework\spring-web\5.3.15\spring-web-5.3.15.jar = 1644974401872
+C:\Users\eduardo\.m2\repository\org\springframework\spring-webmvc\5.3.15\spring-webmvc-5.3.15.jar = 1644974401663
+C:\Users\eduardo\.m2\repository\org\springframework\spring-expression\5.3.15\spring-expression-5.3.15.jar = 1644974398706
+C:\Users\eduardo\.m2\repository\org\springframework\boot\spring-boot\2.6.3\spring-boot-2.6.3.jar = 1644974404596
+C:\Users\eduardo\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.6.3\spring-boot-autoconfigure-2.6.3.jar = 1644974404804
+C:\Users\eduardo\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar = 1633137129904
+C:\Users\eduardo\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar = 1633137130121
+C:\Users\eduardo\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar = 1633137130302
+C:\Users\eduardo\.m2\repository\org\springframework\spring-core\5.3.15\spring-core-5.3.15.jar = 1644974409542
+C:\Users\eduardo\.m2\repository\org\springframework\spring-jcl\5.3.15\spring-jcl-5.3.15.jar = 1644974402856
+C:\Users\eduardo\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar = 1645739422234
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\jetty-maven-plugin\9.4.24.v20191120\jetty-maven-plugin-9.4.24.v20191120.jar = 1645747121422
+C:\Users\eduardo\.m2\repository\org\apache\maven\maven-plugin-api\3.6.0\maven-plugin-api-3.6.0.jar = 1645747121472
+C:\Users\eduardo\.m2\repository\org\apache\maven\maven-model\3.6.0\maven-model-3.6.0.jar = 1645747121594
+C:\Users\eduardo\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.3\org.eclipse.sisu.plexus-0.3.3.jar = 1629255772607
+C:\Users\eduardo\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar = 1629255772663
+C:\Users\eduardo\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar = 1629255772671
+C:\Users\eduardo\.m2\repository\org\codehaus\plexus\plexus-utils\3.1.0\plexus-utils-3.1.0.jar = 1629255773377
+C:\Users\eduardo\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.5.2\plexus-classworlds-2.5.2.jar = 1629255773521
+C:\Users\eduardo\.m2\repository\org\apache\maven\maven-artifact\3.6.0\maven-artifact-3.6.0.jar = 1645747121562
+C:\Users\eduardo\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar = 1644086391975
+C:\Users\eduardo\.m2\repository\org\apache\maven\maven-core\3.6.0\maven-core-3.6.0.jar = 1645747122494
+C:\Users\eduardo\.m2\repository\org\apache\maven\maven-settings\3.6.0\maven-settings-3.6.0.jar = 1645747122228
+C:\Users\eduardo\.m2\repository\org\apache\maven\maven-settings-builder\3.6.0\maven-settings-builder-3.6.0.jar = 1645747122527
+C:\Users\eduardo\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.25\plexus-interpolation-1.25.jar = 1629255812962
+C:\Users\eduardo\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.4\plexus-sec-dispatcher-1.4.jar = 1645747122222
+C:\Users\eduardo\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar = 1626743627035
+C:\Users\eduardo\.m2\repository\org\apache\maven\maven-builder-support\3.6.0\maven-builder-support-3.6.0.jar = 1645747122959
+C:\Users\eduardo\.m2\repository\org\apache\maven\maven-repository-metadata\3.6.0\maven-repository-metadata-3.6.0.jar = 1645747123380
+C:\Users\eduardo\.m2\repository\org\apache\maven\maven-model-builder\3.6.0\maven-model-builder-3.6.0.jar = 1645747124111
+C:\Users\eduardo\.m2\repository\org\apache\maven\maven-resolver-provider\3.6.0\maven-resolver-provider-3.6.0.jar = 1645747124265
+C:\Users\eduardo\.m2\repository\org\apache\maven\resolver\maven-resolver-impl\1.3.1\maven-resolver-impl-1.3.1.jar = 1645747124463
+C:\Users\eduardo\.m2\repository\org\apache\maven\resolver\maven-resolver-api\1.3.1\maven-resolver-api-1.3.1.jar = 1645747124612
+C:\Users\eduardo\.m2\repository\org\apache\maven\resolver\maven-resolver-spi\1.3.1\maven-resolver-spi-1.3.1.jar = 1645747124659
+C:\Users\eduardo\.m2\repository\org\apache\maven\resolver\maven-resolver-util\1.3.1\maven-resolver-util-1.3.1.jar = 1645747124825
+C:\Users\eduardo\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.2.1\maven-shared-utils-3.2.1.jar = 1626743627731
+C:\Users\eduardo\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar = 1626744226597
+C:\Users\eduardo\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.3\org.eclipse.sisu.inject-0.3.3.jar = 1629255774063
+C:\Users\eduardo\.m2\repository\com\google\inject\guice\4.2.1\guice-4.2.1-no_aop.jar = 1645747125706
+C:\Users\eduardo\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar = 1633137166902
+C:\Users\eduardo\.m2\repository\com\google\guava\guava\25.1-android\guava-25.1-android.jar = 1645747129704
+C:\Users\eduardo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar = 1644086388805
+C:\Users\eduardo\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar = 1645747125766
+C:\Users\eduardo\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar = 1645747126150
+C:\Users\eduardo\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar = 1629255771759
+C:\Users\eduardo\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar = 1629255771879
+C:\Users\eduardo\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar = 1629255772985
+C:\Users\eduardo\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.7.1\plexus-component-annotations-1.7.1.jar = 1626743623246
+C:\Users\eduardo\.m2\repository\org\apache\maven\plugin-tools\maven-plugin-tools-api\3.5.2\maven-plugin-tools-api-3.5.2.jar = 1629255765427
+C:\Users\eduardo\.m2\repository\org\apache\maven\maven-project\2.2.1\maven-project-2.2.1.jar = 1626744236221
+C:\Users\eduardo\.m2\repository\org\apache\maven\maven-profile\2.2.1\maven-profile-2.2.1.jar = 1626744235784
+C:\Users\eduardo\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar = 1626744237174
+C:\Users\eduardo\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar = 1629255784620
+C:\Users\eduardo\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar = 1626744237198
+C:\Users\eduardo\.m2\repository\org\apache\maven\maven-plugin-registry\2.2.1\maven-plugin-registry-2.2.1.jar = 1626744235752
+C:\Users\eduardo\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar = 1626744156855
+C:\Users\eduardo\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar = 1633570504374
+C:\Users\eduardo\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar = 1645747126524
+C:\Users\eduardo\.m2\repository\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar = 1628731554938
+C:\Users\eduardo\.m2\repository\org\apache\maven\maven-plugin-descriptor\2.2.1\maven-plugin-descriptor-2.2.1.jar = 1626744238010
+C:\Users\eduardo\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.9.1\maven-artifact-transfer-0.9.1.jar = 1645747126971
+C:\Users\eduardo\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar = 1626743627603
+C:\Users\eduardo\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar = 1626743625306
+C:\Users\eduardo\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar = 1626743625467
+C:\Users\eduardo\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar = 1626743625723
+C:\Users\eduardo\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar = 1645747127442
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\jetty-util\9.4.44.v20210927\jetty-util-9.4.44.v20210927.jar = 1645747128978
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\jetty-webapp\9.4.44.v20210927\jetty-webapp-9.4.44.v20210927.jar = 1645747128396
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.44.v20210927\jetty-xml-9.4.44.v20210927.jar = 1645747128526
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\jetty-quickstart\9.4.44.v20210927\jetty-quickstart-9.4.44.v20210927.jar = 1645747129624
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\jetty-jaas\9.4.44.v20210927\jetty-jaas-9.4.44.v20210927.jar = 1645747129729
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\jetty-security\9.4.44.v20210927\jetty-security-9.4.44.v20210927.jar = 1645747129948
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\jetty-plus\9.4.44.v20210927\jetty-plus-9.4.44.v20210927.jar = 1645747130057
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\jetty-jndi\9.4.44.v20210927\jetty-jndi-9.4.44.v20210927.jar = 1645747130496
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\jetty-server\9.4.44.v20210927\jetty-server-9.4.44.v20210927.jar = 1645747130885
+C:\Users\eduardo\.m2\repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar = 1645747130944
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.44.v20210927\jetty-servlet-9.4.44.v20210927.jar = 1645747131000
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\jetty-util-ajax\9.4.44.v20210927\jetty-util-ajax-9.4.44.v20210927.jar = 1645747131048
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\jetty-client\9.4.44.v20210927\jetty-client-9.4.44.v20210927.jar = 1645747131426
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\jetty-http\9.4.44.v20210927\jetty-http-9.4.44.v20210927.jar = 1645747131523
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\jetty-io\9.4.44.v20210927\jetty-io-9.4.44.v20210927.jar = 1645747131646
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\jetty-jmx\9.4.44.v20210927\jetty-jmx-9.4.44.v20210927.jar = 1645747131662
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\jetty-annotations\9.4.44.v20210927\jetty-annotations-9.4.44.v20210927.jar = 1645747131715
+C:\Users\eduardo\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar = 1645747131928
+C:\Users\eduardo\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar = 1645747132041
+C:\Users\eduardo\.m2\repository\org\ow2\asm\asm-commons\9.2\asm-commons-9.2.jar = 1645747132120
+C:\Users\eduardo\.m2\repository\org\ow2\asm\asm-tree\9.2\asm-tree-9.2.jar = 1645747132188
+C:\Users\eduardo\.m2\repository\org\ow2\asm\asm-analysis\9.2\asm-analysis-9.2.jar = 1645747132436
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\websocket\javax-websocket-server-impl\9.4.44.v20210927\javax-websocket-server-impl-9.4.44.v20210927.jar = 1645747132565
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\websocket\javax-websocket-client-impl\9.4.44.v20210927\javax-websocket-client-impl-9.4.44.v20210927.jar = 1645747132436
+C:\Users\eduardo\.m2\repository\javax\websocket\javax.websocket-client-api\1.0\javax.websocket-client-api-1.0.jar = 1645747132629
+C:\Users\eduardo\.m2\repository\javax\websocket\javax.websocket-api\1.1\javax.websocket-api-1.1.jar = 1645747133044
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\websocket\websocket-server\9.4.44.v20210927\websocket-server-9.4.44.v20210927.jar = 1645747133353
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.44.v20210927\websocket-common-9.4.44.v20210927.jar = 1645747133561
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.44.v20210927\websocket-api-9.4.44.v20210927.jar = 1645747134065
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.44.v20210927\websocket-client-9.4.44.v20210927.jar = 1645747134472
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\websocket\websocket-servlet\9.4.44.v20210927\websocket-servlet-9.4.44.v20210927.jar = 1645747134698
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\apache-jsp\9.4.44.v20210927\apache-jsp-9.4.44.v20210927.jar = 1645747134599
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\toolchain\jetty-schemas\3.1.2\jetty-schemas-3.1.2.jar = 1645747134679
+C:\Users\eduardo\.m2\repository\org\mortbay\jasper\apache-jsp\8.5.70\apache-jsp-8.5.70.jar = 1645747135322
+C:\Users\eduardo\.m2\repository\org\mortbay\jasper\apache-el\9.0.52\apache-el-9.0.52.jar = 1645747135465
+C:\Users\eduardo\.m2\repository\org\eclipse\jdt\ecj\3.19.0\ecj-3.19.0.jar = 1645747137564
+C:\Users\eduardo\.m2\repository\org\eclipse\jetty\apache-jstl\9.4.44.v20210927\apache-jstl-9.4.44.v20210927.jar = 1645747135812
+C:\Users\eduardo\.m2\repository\org\apache\taglibs\taglibs-standard-spec\1.2.5\taglibs-standard-spec-1.2.5.jar = 1645747135828
+C:\Users\eduardo\.m2\repository\org\apache\taglibs\taglibs-standard-impl\1.2.5\taglibs-standard-impl-1.2.5.jar = 1645747136640
+C:\Users\eduardo\.m2\repository\javax\transaction\javax.transaction-api\1.3\javax.transaction-api-1.3.jar = 1645747136438
+C:\Users\eduardo\Desktop\Projetos\Indicadores\src\main\java = 1645749064519
+C:\Users\eduardo\Desktop\Projetos\Indicadores\target\site\apidocs\allclasses-index.html = 1646068702080
+C:\Users\eduardo\Desktop\Projetos\Indicadores\target\site\apidocs\allpackages-index.html = 1646068702089
+C:\Users\eduardo\Desktop\Projetos\Indicadores\target\site\apidocs\element-list = 1646068701021
+C:\Users\eduardo\Desktop\Projetos\Indicadores\target\site\apidocs\help-doc.html = 1646068702416
+C:\Users\eduardo\Desktop\Projetos\Indicadores\target\site\apidocs\index-all.html = 1646068702382
+C:\Users\eduardo\Desktop\Projetos\Indicadores\target\site\apidocs\index.html = 1646068702002
+C:\Users\eduardo\Desktop\Projetos\Indicadores\target\site\apidocs\jquery-ui.overrides.css = 1646068702669
+C:\Users\eduardo\Desktop\Projetos\Indicadores\target\site\apidocs\member-search-index.js = 1646068702164
+C:\Users\eduardo\Desktop\Projetos\Indicadores\target\site\apidocs\module-search-index.js = 1646068702093
+C:\Users\eduardo\Desktop\Projetos\Indicadores\target\site\apidocs\overview-summary.html = 1646068702387
+C:\Users\eduardo\Desktop\Projetos\Indicadores\target\site\apidocs\overview-tree.html = 1646068701987
+C:\Users\eduardo\Desktop\Projetos\Indicadores\target\site\apidocs\package-search-index.js = 1646068702098
+C:\Users\eduardo\Desktop\Projetos\Indicadores\target\site\apidocs\script.js = 1646068702432
+C:\Users\eduardo\Desktop\Projetos\Indicadores\target\site\apidocs\search.js = 1646068702464
+C:\Users\eduardo\Desktop\Projetos\Indicadores\target\site\apidocs\serialized-form.html = 1646068701411
+C:\Users\eduardo\Desktop\Projetos\Indicadores\target\site\apidocs\stylesheet.css = 1646068702428
+C:\Users\eduardo\Desktop\Projetos\Indicadores\target\site\apidocs\tag-search-index.js = 1646068702168
+C:\Users\eduardo\Desktop\Projetos\Indicadores\target\site\apidocs\type-search-index.js = 1646068702101
